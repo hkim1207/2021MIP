@@ -218,20 +218,6 @@ def detect(save_img=False):
                                         if first > last : S = S + 1
                                         else : N = N + 1
                                         del(people_count[id])
-
-                                        #if pointInPolygon(4, [350, 1850, 1900, 400], [360, 700, 520, 140], x1, y2) or pointInPolygon(4, [100, 1760, 1810, 150], [415, 1000, 845, 470], x1, y2):
-
-                                
-
-
-
-
-
-                                '''
-                                영상2
-                                if pointInPolygon(4, [380, 500, 500, 380], [300, 300, 420, 420], (x1+x2)/2, y2):
-                                    people_count.add(id)
-                                '''
                             
             cv2.rectangle(im0, (10, 10), (750, 190), (255, 255, 255), -1)
             cv2.putText(im0, "People Counting = " + str(count), (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 2, (0,0,0),3)
@@ -288,7 +274,7 @@ if __name__ == '__main__':
     parser.add_argument('--img-size', type=int, default=640, help='inference size (pixels)')
     parser.add_argument('--conf-thres', type=float, default=0.4, help='object confidence threshold')
     parser.add_argument('--iou-thres', type=float, default=0.5, help='IOU threshold for NMS')
-    parser.add_argument('--device', default='cpu', help='cuda device, i.e. 0 or 0,1,2,3 or cpu')
+    parser.add_argument('--device', default='0', help='cuda device, i.e. 0 or 0,1,2,3 or cpu')
     parser.add_argument('--view-img', action='store_true', help='display results')
     parser.add_argument('--save-txt', action='store_true', help='save results to *.txt')
     parser.add_argument('--classes', nargs='+', type=int, help='filter by class: --class 0, or --class 0 2 3')
