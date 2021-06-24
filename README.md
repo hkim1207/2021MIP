@@ -51,7 +51,7 @@ https://ykkim.gitbook.io/dlip/deep-learning-for-perception/installation-guide-fo
 
    `conda activate YOffleNet_Tracking`
 
-   <img src=".\images\image-20210625010053407.png" alt="image-20210625010053407" style="zoom:50%;" />
+   <img src=".\images\image-20210625005459680.png" alt="image-20210625005459680" style="zoom:50%;" />
 
 5. Install pytorch and torch family. 
    `conda install pytorch==1.7.0 torchvision==0.8.0 torchaudio==0.7.0 cudatoolkit=10.2 -c pytorch`
