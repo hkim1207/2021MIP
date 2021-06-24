@@ -38,7 +38,7 @@ https://ykkim.gitbook.io/dlip/deep-learning-for-perception/installation-guide-fo
 ##### Anaconda
 
 1. open the Anaconda Prompt (anaconda3)
-   ![image-20210625005459680](C:\Users\hkim\AppData\Roaming\Typora\typora-user-images\image-20210625005459680.png)
+   <img src="C:\Users\hkim\AppData\Roaming\Typora\typora-user-images\image-20210625005459680.png" style="zoom:50%;" />
 
 2. Change the current location to the directory where the Python file to be executed is in.
    `cd C:\Users\hkim\Documents\GitHub\2021MIP` 
@@ -50,21 +50,21 @@ https://ykkim.gitbook.io/dlip/deep-learning-for-perception/installation-guide-fo
 
    `conda activate YOffleNet_Tracking`
 
-   ![image-20210625010053407](C:\Users\hkim\AppData\Roaming\Typora\typora-user-images\image-20210625010053407.png)
+   <img src="C:\Users\hkim\AppData\Roaming\Typora\typora-user-images\image-20210625010053407.png" alt="image-20210625010053407" style="zoom:50%;" />
 
    
 
 5. Install pytorch and torch family. 
    `conda install pytorch==1.7.0 torchvision==0.8.0 torchaudio==0.7.0 cudatoolkit=10.2 -c pytorch`
 
-   ![image-20210625015216696](C:\Users\hkim\AppData\Roaming\Typora\typora-user-images\image-20210625015216696.png)
+   <img src="C:\Users\hkim\AppData\Roaming\Typora\typora-user-images\image-20210625015216696.png" alt="image-20210625015216696" style="zoom:50%;" />
 
    
 
 6. Install the other libraries to run the track_YOffleNet.py
     `pip install -U -r requirements.txt`
 
-   ![image-20210625010415772](C:\Users\hkim\AppData\Roaming\Typora\typora-user-images\image-20210625010415772.png)
+   <img src="C:\Users\hkim\AppData\Roaming\Typora\typora-user-images\image-20210625010415772.png" style="zoom:50%;" />
 
 ## Tracking
 
