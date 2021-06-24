@@ -39,12 +39,12 @@ https://ykkim.gitbook.io/dlip/deep-learning-for-perception/installation-guide-fo
 
 1. open the Anaconda Prompt (anaconda3)
    
-   <img src=".images\image-20210625005459680.png" alt="image-20210625005459680" style="zoom:50%;" />
-   
 2. Change the current location to the directory where the Python file to be executed is in.
+
    `cd C:\Users\hkim\Documents\GitHub\2021MIP` 
 
 3. Create a new conda environment
+
    `conda create -n YOffleNet_Tracking python=3.7` 
 
 4. Activate the YOffleNet_Tracking environment
@@ -54,11 +54,13 @@ https://ykkim.gitbook.io/dlip/deep-learning-for-perception/installation-guide-fo
    <img src=".\images\image-20210625005459680.png" alt="image-20210625005459680" style="zoom:50%;" />
 
 5. Install pytorch and torch family. 
+
    `conda install pytorch==1.7.0 torchvision==0.8.0 torchaudio==0.7.0 cudatoolkit=10.2 -c pytorch`
 
    <img src=".\images\image-20210625015216696.png" alt="image-20210625015216696" style="zoom:50%;" />
 
 6. Install the other libraries to run the track_YOffleNet.py
+
    `pip install -U -r requirements.txt`
 
    <img src=".\images\image-20210625010415772.png" alt="image-20210625010415772" style="zoom:50%;" />
