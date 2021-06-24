@@ -1,6 +1,6 @@
 # YOffleNet + Deep Sort with PyTorch
 
-<img src="C:\Users\hkim\Downloads\test.gif" alt="test" style="zoom:80%;" />
+<img src="C:\Users\hkim\Downloads\ecewe.gif" alt="ecewe" style="zoom:50%;" />
 
 ## Introduction
 
